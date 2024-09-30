@@ -28,7 +28,7 @@ app.use((error, req, res, next) => {
 })
 
 mongoose.connect(
-    'mongodb+srv://Praveensp:Praveen%401998@cluster0.1affwyf.mongodb.net/?retryWrites=true&w=majority'
+    'mongodb+srv://Praveen:Praveen@cluster0.1affwyf.mongodb.net/?retryWrites=true&w=majority'
     , { useNewUrlParser: true })
     .then(result => {
         app.listen(8090)
